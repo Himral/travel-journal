@@ -1,38 +1,131 @@
 .App {
   text-align: center;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.navbar {
+  position: relative;
+  background: #F55A5A;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 24px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar img {
+
+  height: fit-content;
+  padding-bottom: 15px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar h1 {
+  color: #FFFFFF;
+  position: relative;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 40px 100px;
+  padding: 20px;
+  border: #FFFFFF;
+
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col2 {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  gap: 10px
+}
+
+.row h3 {
+  margin: 0px;
+  font-size: 13px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+}
+
+.row a {
+  font-size: 13px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.row img {
+  size: initial;
+}
+
+.card h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.card h5 {
+  font-weight: 600;
+  font-size: 13px;
+  color: #2B283A;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.card p {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 150%;
+  color: #2B283A;
+  text-align: left;
+  padding: 0;
+}
+
+.footer {
+  background: #F55A5A;
+  padding: 10px;
+  color: #FFFFFF;
+
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.links h3 {
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.links img {
+  height: fit-content;
 }
